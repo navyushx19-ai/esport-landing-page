@@ -12,7 +12,15 @@ function App() {
           <a href="#trust">Trust</a>
           <a href="#contact">Contact</a>
         </nav>
-        <button className="cta ghost">Download App</button>
+        <button 
+  className="cta primary"
+  onClick={() => window.open(
+    "https://expo.dev/artifacts/eas/quuCxCX83nskzGk1XUhNE2.apk",
+    "_blank"
+  )}
+>
+  Download App
+</button>
       </header>
 
       <main>
