@@ -33,7 +33,15 @@ function App() {
               and build your competitive gaming profile in a fair, verified arena.
             </p>
             <div className="hero-actions">
-              <button className="cta primary">Download App</button>
+              <button 
+  className="cta primary"
+  onClick={() => window.open(
+    "https://expo.dev/artifacts/eas/quuCxCX83nskzGk1XUhNE2.apk",
+    "_blank"
+  )}
+>
+  Download App
+</button>
               <button className="cta secondary">Explore Tournaments</button>
             </div>
             <div className="hero-stats">
@@ -279,7 +287,15 @@ function App() {
             <p>Download the app and start competing today.</p>
           </div>
           <div className="final-actions">
-            <button className="cta primary">Android Download</button>
+           <button 
+  className="cta primary"
+  onClick={() => window.open(
+    "https://expo.dev/artifacts/eas/quuCxCX83nskzGk1XUhNE2.apk",
+    "_blank"
+  )}
+>
+Android Download button
+</button>
             <button className="cta ghost">iOS Coming Soon</button>
           </div>
         </section>
